@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    margin-top: 50px;
+}
+.card{
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 4px 5px 3px rgb(117, 114, 114);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.card:hover{
+    transition: 0.5s;
+        height: 125px;
+        width: 225px;
+        margin: 10px;
+        padding: 10px;
+        box-shadow: 4px 5px 3px rgb(117, 114, 114);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 10px;
+}
+.home::-webkit-scrollbar{
+    display: none;
+}
